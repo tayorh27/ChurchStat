@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Trem Stat</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Attendance</string>
+    <string name="desc_slide1">It will give you the number of people that attend your church.</string>
+    <string name="title_slide2">Feedback Forum</string>
+    <string name="desc_slide2">Get feedback from your church members and see their ratings.</string>
+    <string name="title_slide3">Statistics</string>
+    <string name="desc_slide3">This will help you know how your church is growing.</string>
+    <string name="done">Done</string>
+
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+        <item>All months</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+    <string name="view">View All</string>
+    <string name="check">Check this</string>
+    <string-array name="wrongs">
+        <item>Song</item>
+        <item>Choir</item>
+        <item>Mic</item>
+        <item>Speaker</item>
+        <item>Ushers</item>
+        <item>Greeters</item>
+    </string-array>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="save">Save Chart</string>
+    <string name="view_rate">View Ratings</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_home">Attendance</string>
+</resources>

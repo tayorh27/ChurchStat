@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.stat.churchstat">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/trem"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TourActivity" />
+        <activity android:name=".Activity.HomeActivity"
+            android:label="@string/title_activity_home"/>
+        <activity
+            android:name=".Activity.DashboardActivity"
+            android:label="@string/title_activity_dashboard" />
+        <activity android:name=".Activity.DatabaseActivity" />
+        <activity android:name=".Activity.ChartActivity" />
+        <activity
+            android:name=".Activity.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Activity.ViewAllActivity" />
+        <activity android:name=".Activity.RatingsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".Activity.SampleActivity"
+            android:label="@string/title_activity_sample"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.ViewRatingsActivity" />
+        <activity android:name=".Activity.RateChartActivity" />
+        <activity android:name=".Activity.ChartRateActivity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e2895daf14080404c76d334a9f5e71d69f52371f" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
